@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdur Rehman Daniyal - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #172a45; /* Dark blue background */
+            color: #ffffff; /* White text color */
+        }
+
+        header {
+            background-color: #0f1b2d; /* Darker blue header background */
+            color: white;
+            padding: 2em;
+        }
+
+        .content-container {
+            display: flex;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .avatar-container {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin: 20px 20px 0 0;
+            background-color: #0f1b2d; /* Darker blue circular frame background */
+        }
+
+        .avatar {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border: 5px solid #ffffff; /* White border around the circular frame */
+        }
+
+        section {
+            flex: 1;
+            padding: 20px;
+            background-color: #0f1b2d; /* Darker blue section background */
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2, h3 {
+            color: #ffffff; /* White heading color */
+        }
+
+        p {
+            line-height: 1.6;
+            color: #bdc3c7; /* Light gray text color */
+        }
+
+        .skills {
+            margin-top: 20px;
+        }
+
+        .skill {
+            margin-bottom: 10px;
+        }
+
+        .skill-name {
+            font-weight: bold;
+        }
+
+        .progress-bar {
+            height: 10px;
+            background-color: #2c3e50; /* Darker blue background for progress bar */
+            border-radius: 5px;
+            margin-bottom: 10px;
+            overflow: hidden;
+        }
+
+        .progress {
+            height: 100%;
+            background-color: #ffffff; /* White progress bar color */
+        }
+
+        .projects {
+            margin-top: 20px;
+        }
+
+        .project {
+            border: 1px solid #2c3e50; /* Darker blue border for projects */
+            border-radius: 10px;
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+
+        .project img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .project-details {
+            padding: 10px;
+        }
+
+        .project-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #ffffff; /* White project title color */
+        }
+
+        .project-description {
+            color: #bdc3c7; /* Light gray project description color */
+        }
+
+        .social-icons {
+            margin-top: 20px;
+        }
+
+        .social-icons a {
+            text-decoration: none;
+            color: #ffffff; /* White text color */
+            margin-right: 15px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1em;
+            background-color: #0f1b2d; /* Dark blue footer background */
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="content-container">
+            <div class="avatar-container">
+                <img class="avatar" src="C:\Users\MG\Desktop\new portfolio\WhatsApp Image 2023-11-13 at 11.54.01 PM.jpeg" alt="Your Name">
+            </div>
+            <div>
+                <h1>Abdur Rehman Daniyal</h1>
+                <p>Software Engineer</p>
+            </div>
+        </div>
+    </header>
+
+    <section class="content-container">
+        <section>
+            <h2>About Me</h2>
+            <p>
+                Welcome to my portfolio! I am a passionate web developer with a focus on creating
+                user-friendly and visually appealing websites. I have experience in HTML, CSS, and JavaScript.
+            </p>
+        </section>
+
+        <section class="skills">
+            <h2>Skills</h2>
+            <div class="skill">
+                <div class="skill-name">HTML</div>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 80%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">CSS</div>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 70%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">C++</div>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 60%;"></div>
+                </div>
+            </div>
+            <!-- Add more skills as needed -->
+        </section>
+    </section>
+
+    <section class="content-container projects">
+        <section>
+            <h2>Projects</h2>
+            <div class="project">
+                
+                <div class="project-details">
+                    <div class="project-title">Project 1</div>
+                    <div class="project-description">Made a ministry management system.</div>
+                </div>
+            </div>
+            <div class="project">
+                
+                <div class="project-details">
+                    <div class="project-title">Project 2</div>
+                    <div class="project-description">Super Mario using cpp.</div>
+                </div>
+            </div>
+            <!-- Add more projects as needed -->
+        </section>
+    </section>
+
+    <section class="social-icons">
+        <a href="https://github.com/daniyalahmed9194" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://x.com/daniyalsheikh04?t=vf-PHXo9p087GhqFZJ2w2A&s=09" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="rehmanahm0987@gmail.com"><i class="fas fa-envelope"></i></a>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Your Name. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
